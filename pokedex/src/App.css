@@ -1,22 +1,175 @@
- /* Estilos para los botones */
- .dropdown-menu {
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  color: black
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  color: #ffcb05;
+
+}
+
+.pokemon-card {
+  text-align: center;
+  background-color: #2a75bb;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px gray;
+  padding: 20px;
+}
+
+.pokemon-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.pokemon-card h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.pokemon-card p {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: black;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 
-.dropdown-item {
-  /* Estilos comunes para los botones */
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  color: #333;
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Al pasar el mouse sobre un botón */
-.dropdown-item:hover {
-  background-color: #f0f0f0;
+.modal-content h2 {
+  margin-top: 0;
+  color: #ffcb05;
 }
 
-/* Al hacer clic en un botón */
-.dropdown-item:active {
-  background-color: #ddd;
+.modal-content button {
+  cursor: pointer;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
 }
+
+.modal-content button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Agrega estilos CSS para el modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  text-align: center;
+  color: black;
+}
+
+.modal-content {
+  background-color: #2a75bb;
+  padding: 0px;
+  border-radius: 8px;
+  max-width: 40%;
+  max-height: 300%;
+  overflow: auto;
+  color: azure;
+  align-items: center;
+}
+
+.modal-content img {
+  max-width: 500%;
+  height: auto;
+}
+
+/* Estilos para el botón dentro del modal */
+.modal-content button{
+  background-color: #ffcb05;
+  color: black;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos adicionales para el botón al pasar el cursor sobre él */
+.modal-content button:hover {
+  background-color: #ffd700;
+}
+
+/* Estilos para la imagen dentro del modal */
+.modal-content img {
+  width: 200px;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+/* Estilos para el menú desplegable */
+.dropdown-menu {
+  background-color: #ffcb05; /* Fondo amarillo */
+}
+
+/* Estilos para las opciones del menú desplegable */
+.dropdown-menu .dropdown-item {
+  color: black; /* Texto negro */
+}
+
+/* Estilos para las opciones del menú desplegable al pasar el cursor sobre ellas */
+.dropdown-menu .dropdown-item:hover {
+  background-color: #007bff; /* Cambia el color de fondo a azul al pasar el cursor sobre las opciones */
+  color: white; /* Cambia el color del texto a blanco al pasar el cursor sobre las opciones */
+}
+
+/* Estilos para el botón "Elige la generación" */
+.btn-generacion {
+  background-color: #ffcb05; /* Fondo amarillo */
+  color: black; /* Texto negro */
+  padding: 15px 20px; /* Ajuste de relleno */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de puntero al pasar sobre el botón */
+}
+
+/* Estilos adicionales para el botón al pasar el cursor sobre él */
+.btn-generacion:hover {
+  background-color: #007bff; /* Cambio de color de fondo a un tono más claro de amarillo al pasar el cursor sobre el botón */
+}
+
+/* Estilos para la imagen del logo */
+.logo-img {
+  max-width: 150px; /* Establece el ancho máximo de la imagen */
+  height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+}
+
+
+
