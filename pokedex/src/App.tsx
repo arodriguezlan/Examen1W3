@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './App.css'; // Archivo CSS para estilos básicos
+import './App.css'; 
 
 // Definición de tipo para los Pokémon
 interface Pokemon {

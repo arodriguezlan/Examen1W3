@@ -82,8 +82,6 @@ img {
   background-color: #0056b3;
 }
 
-
-/* Agrega estilos CSS para el modal */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -112,7 +110,6 @@ img {
   height: auto;
 }
 
-/* Estilos para el botón dentro del modal */
 .modal-content button{
   background-color: #ffcb05;
   color: black;
@@ -122,53 +119,45 @@ img {
   cursor: pointer;
 }
 
-/* Estilos adicionales para el botón al pasar el cursor sobre él */
 .modal-content button:hover {
   background-color: #ffd700;
 }
 
-/* Estilos para la imagen dentro del modal */
 .modal-content img {
   width: 200px;
   max-height: 200px;
   object-fit: contain;
 }
 
-/* Estilos para el menú desplegable */
 .dropdown-menu {
-  background-color: #ffcb05; /* Fondo amarillo */
+  background-color: #ffcb05; 
 }
 
-/* Estilos para las opciones del menú desplegable */
 .dropdown-menu .dropdown-item {
-  color: black; /* Texto negro */
+  color: black; 
 }
 
-/* Estilos para las opciones del menú desplegable al pasar el cursor sobre ellas */
 .dropdown-menu .dropdown-item:hover {
-  background-color: #007bff; /* Cambia el color de fondo a azul al pasar el cursor sobre las opciones */
-  color: white; /* Cambia el color del texto a blanco al pasar el cursor sobre las opciones */
+  background-color: #007bff; 
+  color: white; 
 }
 
-/* Estilos para el botón "Elige la generación" */
 .btn-generacion {
-  background-color: #ffcb05; /* Fondo amarillo */
-  color: black; /* Texto negro */
-  padding: 15px 20px; /* Ajuste de relleno */
-  border: none; /* Sin borde */
-  border-radius: 5px; /* Bordes redondeados */
-  cursor: pointer; /* Cursor de puntero al pasar sobre el botón */
+  background-color: #ffcb05; 
+  color: black; 
+  padding: 15px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;
 }
 
-/* Estilos adicionales para el botón al pasar el cursor sobre él */
 .btn-generacion:hover {
-  background-color: #007bff; /* Cambio de color de fondo a un tono más claro de amarillo al pasar el cursor sobre el botón */
+  background-color: #007bff; 
 }
 
-/* Estilos para la imagen del logo */
 .logo-img {
-  max-width: 150px; /* Establece el ancho máximo de la imagen */
-  height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+  max-width: 150px; 
+  height: auto; 
 }
 
 
